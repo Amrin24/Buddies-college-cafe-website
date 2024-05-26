@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJ
+ gyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#food">Category</a></li>
+                <li><a href="#food-menu">Menu</a></li>
+                <li><a href="#testimonials">Testimonial</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <h1 class="logo">Buddies College Cafe</h1>
+        </div>
+    </nav>
+    <section class="showcase-area" id="showcase">
+        <div class="showcase-container">
+            <h1 class="main-title" id="home">Eat Right Food</h1>
+            <p>Buddies College Cafe</p>
+            <p>DEPARTMENT OF COMPUTER ENGINEERING</p>
+            <p>Eat Healthy, it is good for our health.</p>
+            <a href="#food-menu" class="btn btn-primary">Menu</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-wrapper container">
+            <div class="about-text">
+                <p class="small">About Us</p>
+                <h2>We've been making healthy food</h2>
+                <p>People say you cannot buy happiness with money but I say that you can buy some good food with money
+                    and that is pretty much the same.</p>
+            </div>
+            <div class="about-img">
+                <img src="https://i.postimg.cc/mgpwzmx9/about-photo.jpg" alt="food" />
+            </div>
+        </div>
+    </section>
+    <section id="food">
+        <h2>Types of food</h2>
+        <div class="food-container container">
+            <div class="food-type fruit">
+                <div class="img-container">
+                    <img src="https://example.com/snacks-junk-2.jpg" alt="Snacks" />
+                    <div class="img-content">
+                        <h3>Snacks</h3>
+                        <a href="https://example.com/snacks-wiki.jpg" class="btn btn-primary" target="_blank">Learn
+                            more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type vegetable">
+                <div class="img-container">
+                    <img src="https://example.com/desserts.jpg" alt="Desserts" />
+                    <div class="img-content">
+                        <h3>Desserts</h3>
+                        <a href="https://example.com/desserts-2.jpg" class="btn btn-primary" target="_blank">Learn
+                            more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type drink">
+                <div class="img-container">
+                    <img src="https://example.com/shakes.jpg" alt="Shakes" />
+                    <div class="img-content">
+                        <h3>Shakes</h3>
+                        <a href="https://example.com/shakes-wiki.jpg" class="btn btn-primary" target="_blank">Learn
+                            more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="food-menu">
+        <h2 class="food-menu-heading">Best Sellers</h2>
+        <div class="food-menu-container container">
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://example.com/images.jpg" alt="Pizza" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Pizza</h2>
+                    <p>Cheese is fatty, meat toppings tend to be rich, and the sauce is sweet.</p>
+                    <p class="food-price">Price: &#8377; 150</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+
+
