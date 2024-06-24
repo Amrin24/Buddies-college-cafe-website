@@ -11,6 +11,15 @@ Menu/Testimonial Page
 Contact/Billing Page
 
 
+## Technology used in 
+rontend: HTML, CSS, JavaScript
+Backend: Python (Django or Flask) or JavaScript (Node.js with Express)
+Database: MySQL or PostgreSQL
+Payment: Stripe or PayPal integration
+Optional: WordPress for content management
+
+
+
 ## Features
 Browse menu items and place orders online.
 Designed with college and hostel students in mind.
